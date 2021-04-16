@@ -12,6 +12,8 @@ You can also download the source code from [here](https://store.raywenderlich.co
 
 ## Summarize
 
+ * [Chapter 1: Hello, Metal!](https://github.com/daemyung/MetalByTutorials/tree/main/01-introduction-to-metal)
+
 ## Copyright
 
 All rights are reserved to Ray Wenderlich.
