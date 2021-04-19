@@ -13,6 +13,7 @@ You can also download the source code from [here](https://store.raywenderlich.co
 ## Summarize
 
  * [Chapter 1: Hello, Metal!](https://github.com/daemyung/MetalByTutorials/tree/main/01-introduction-to-metal)
+ * [Chapter 2: 3D Models](https://github.com/daemyung/MetalByTutorials/tree/main/02-3d-models)
 
 ## Copyright
 
