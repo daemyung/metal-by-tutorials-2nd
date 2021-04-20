@@ -4,7 +4,7 @@ As I read this book, I summarize what I think is wrong. If you think my comments
 
 ## The pipeline state
 
-When this book creates a pipeline state, they manually set the output pixel format like below.
+* When this book creates a pipeline state, they manually set the output pixel format like below.
 
 ```
 pipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm

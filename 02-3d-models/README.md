@@ -4,11 +4,11 @@ As I read this book, I summarize what I think is wrong. If you think my comments
 
 ## Metal coordinate system
 
-The book doesn't mention that The Metal NDC(Normalized Device Coordinate) system is the left-hand coordinate system.
+* The book doesn't mention that The Metal NDC(Normalized Device Coordinate) system is the left-hand coordinate system.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b2/3D_Cartesian_Coodinate_Handedness.jpg)
 
-To show the train, this book modified the model file itself. It's not bad but I believe that the model file should be remained to original. Instead of changing y position to -1, we can modify the vertex shader code like below and get the same result.
+* To show the train, this book modified the model file itself. It's not bad but I believe that the model file should be remained to original. Instead of changing y position to -1, we can modify the vertex shader code like below and get the same result.
 
 ```
 vertex float4 vertex_main(const VertexIn vertex_in [[ stage_in ]]) {
