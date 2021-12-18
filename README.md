@@ -10,6 +10,10 @@ You can get more information from [here](https://store.raywenderlich.com/product
 
 You can also download the source code from [here](https://store.raywenderlich.com/products/metal-by-tutorials-source-code).
 
+## Images
+
+You can see color images in this book at [here](https://www.raywenderlich.com/books/metal-by-tutorials).
+
 ## Summarize
 
  * [Chapter 1: Hello, Metal!](https://github.com/daemyung/MetalByTutorials/tree/main/01-introduction-to-metal)
