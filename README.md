@@ -22,6 +22,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 4: Coordinate Spaces](https://github.com/daemyung/MetalByTutorials/tree/main/04-3d-transforms)
  * [Chapter 5: Lighting Fundamentals](https://github.com/daemyung/MetalByTutorials/tree/main/05-lighting-fundamentals)
  * [Chapter 6: Textures](https://github.com/daemyung/MetalByTutorials/tree/main/06-textures)
+ * [Chapter 8: Character Animation](https://github.com/daemyung/MetalByTutorials/tree/main/08-character-animation)
 
 ## Copyright
 
