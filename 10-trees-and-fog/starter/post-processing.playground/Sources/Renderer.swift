@@ -130,9 +130,9 @@ public class Renderer: NSObject {
   
   func buildPipelineState() {
     do {
-      guard let path = Bundle.main.path(forResource: "Shaders", ofType: "metal") else { return }
-      let source = try String(contentsOfFile: path, encoding: .utf8)
-      let library = try device.makeLibrary(source: source, options: nil)
+      guard let library = device.makeDefaultLibrary() else {
+        fatalError("Can't make default library")
+      }
       let vertexFunction = library.makeFunction(name: "vertex_main")
       let fragmentFunction = library.makeFunction(name: "fragment_main")
       let descriptor = MTLRenderPipelineDescriptor()
