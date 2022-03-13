@@ -24,6 +24,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 6: Textures](https://github.com/daemyung/MetalByTutorials/tree/main/06-textures)
  * [Chapter 8: Character Animation](https://github.com/daemyung/MetalByTutorials/tree/main/08-character-animation)
  * [Chapter 9: The Scene Graph](https://github.com/daemyung/MetalByTutorials/tree/main/09-scene-graph)
+ * [Chapter 10: Fragment Post-Processing](https://github.com/daemyung/MetalByTutorials/tree/main/10-trees-and-fog)
 
 ## Copyright
 
