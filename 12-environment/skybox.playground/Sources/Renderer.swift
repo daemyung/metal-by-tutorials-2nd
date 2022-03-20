@@ -72,9 +72,9 @@ public class Renderer: NSObject {
   
   func buildPipelineState() {
     do {
-      guard let path = Bundle.main.path(forResource: "Shaders", ofType: "metal") else { return }
-      let source = try String(contentsOfFile: path, encoding: .utf8)
-      let library = try device.makeLibrary(source: source, options: nil)
+      guard let library = device.makeDefaultLibrary() else {
+        fatalError("Can't make default library")
+      }
       let fragmentFunction = library.makeFunction(name: "fragment_main")
       let descriptor = MTLRenderPipelineDescriptor()
       descriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
@@ -86,12 +86,8 @@ public class Renderer: NSObject {
       try terrain.pipelineState = device.makeRenderPipelineState(descriptor: descriptor)
       
       // skybox pipeline state
-      guard let skyboxPath = Bundle.main.path(forResource: "Skybox", ofType: "metal") else { return }
-      let skyboxSource = try String(contentsOfFile: skyboxPath, encoding: .utf8)
-      let skyboxLibrary = try device.makeLibrary(source: skyboxSource, options: nil)
-
-      descriptor.vertexFunction = skyboxLibrary.makeFunction(name: "vertex_skybox")
-      descriptor.fragmentFunction = skyboxLibrary.makeFunction(name: "fragment_skybox")
+      descriptor.vertexFunction = library.makeFunction(name: "vertex_skybox")
+      descriptor.fragmentFunction = library.makeFunction(name: "fragment_skybox")
       descriptor.vertexDescriptor = MTKMetalVertexDescriptorFromModelIO(skybox.vertexDescriptor)
       try skyboxPipelineState = device.makeRenderPipelineState(descriptor: descriptor)
       
