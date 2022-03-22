@@ -26,6 +26,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 9: The Scene Graph](https://github.com/daemyung/metal-by-tutorials/tree/main/09-scene-graph)
  * [Chapter 10: Fragment Post-Processing](https://github.com/daemyung/metal-by-tutorials/tree/main/10-trees-and-fog)
  * [Chapter 11: Tessellation & Terrains](https://github.com/daemyung/metal-by-tutorials/tree/main/11-tesselation-and-terrains)
+ * [Chapter 12: Environment](https://github.com/daemyung/metal-by-tutorials/tree/main/12-environment)
 
 ## Copyright
 
