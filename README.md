@@ -28,6 +28,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 11: Tessellation & Terrains](https://github.com/daemyung/metal-by-tutorials/tree/main/11-tesselation-and-terrains)
  * [Chapter 12: Environment](https://github.com/daemyung/metal-by-tutorials/tree/main/12-environment)
  * [Chapter 13: Instancing & Procedural Generation](https://github.com/daemyung/metal-by-tutorials/tree/main/13-procedural-generation)
+ * [Chapter 14: Multipass & Deferred Rendering](https://github.com/daemyung/metal-by-tutorials/tree/main/14-multipass-rendering)
 
 ## Copyright
 
