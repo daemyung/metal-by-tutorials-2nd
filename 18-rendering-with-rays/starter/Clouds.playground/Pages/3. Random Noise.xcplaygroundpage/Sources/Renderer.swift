@@ -17,10 +17,8 @@ public class Renderer: NSObject, MTKViewDelegate {
   func initializeMetal() {
     device = MTLCreateSystemDefaultDevice()
     queue = device!.makeCommandQueue()
-    let path = Bundle.main.path(forResource: "Shaders", ofType: "metal")
     do {
-      let input = try String(contentsOfFile: path!, encoding: String.Encoding.utf8)
-      let library = try device!.makeLibrary(source: input, options: nil)
+      let library = device.makeDefaultLibrary()!
       let kernel = library.makeFunction(name: "compute")!
       pipelineState = try device!.makeComputePipelineState(function: kernel)
     } catch {
