@@ -31,6 +31,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 14: Multipass & Deferred Rendering](https://github.com/daemyung/metal-by-tutorials/tree/main/14-multipass-rendering)
  * [Chapter 15: GPU-Driven Rendering](https://github.com/daemyung/metal-by-tutorials/tree/main/15-gpu-driven-rendering)
  * [Chapter 16: Particle Systems](https://github.com/daemyung/metal-by-tutorials/tree/main/16-particle-systems)
+ * [Chapter 18: Rendering with Rays](https://github.com/daemyung/metal-by-tutorials/tree/main/18-rendering-with-rays)
 
 ## Copyright
 
