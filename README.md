@@ -34,6 +34,7 @@ You can see color images in this book at [here](https://www.raywenderlich.com/bo
  * [Chapter 18: Rendering with Rays](https://github.com/daemyung/metal-by-tutorials/tree/main/18-rendering-with-rays)
  * [Chapter 19: Advanced Shadows](https://github.com/daemyung/metal-by-tutorials/tree/main/19-shadows)
  * [Chapter 20: Advanced Lighting](https://github.com/daemyung/metal-by-tutorials/tree/main/20-advanced-lighting)
+ * [Chapter 21: Metal Performance Shaders](https://github.com/daemyung/metal-by-tutorials/tree/main/21-metal-performance-shaders)
 
 ## Copyright
 
