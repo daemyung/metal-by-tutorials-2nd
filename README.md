@@ -2,7 +2,7 @@
 
 ## Book
 
-![](http://mobile.kyobobook.co.kr/common/image/resize?url=http://image.kyobobook.co.kr/images/book/large/988/l9781942878988.jpg)
+![](https://m.media-amazon.com/images/I/414NuIZfcxL._AC_SY780_.jpg)
 
 You can get more information from [here](https://store.raywenderlich.com/products/metal-by-tutorials).
 
